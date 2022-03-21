@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/app.js" defer></script>
+    <title>Grandma's filter</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div id="logo"><a href="#home"><img src="img/logo.svg" alt="Logo" /></a></div>
+        <div class="bars">
+          <span id="bar-1"></span>
+          <span id="bar-2"></span>
+          <span id="bar-3"></span>
+        </div>
+        <ul class="links-container">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#store">Store</a></li>
+        </ul>
+        <div class="shopping-cart">
+          <img src="icons/shopping_cart_black_24dp.svg"> $0
+        </div>
+      </nav>
+      <div class="welcome">
+        <h1>Welcome to <strong>Grandma's</strong></h1>
+        <button class="explore">Explore</button>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div>
+        <h2>About <strong>us</strong></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p>
+          Ab amet id, illum magni provident aliquam ratione enim earum sapiente,
+          voluptates accusantium
+        </p>
+        <p>
+          praesentium doloremque sint minus, nemo itaque nisi. Cupiditate,
+          voluptates!
+        </p>
+        <button class="explore">Explore</button>
+      </div>
+      <div>
+        <img src="img/sweets-1.jpeg" alt="Cake" />
+      </div>
+    </section>
+
+    <section class="store" id="store">
+      <h2>Our <strong>store</strong></h2>
+      <div class="btn-container">
+        <button value="all">All</button>
+        <button value="cakes">Cakes</button>
+        <button value="cupcakes">Cupcakes</button>
+        <button value="sweets">Sweets</button>
+        <button value="doughnuts">Doughnuts</button>
+      </div>
+      <form id="filter">
+        <label for="search">
+          <img src="search_black_36dp.svg" alt="">
+          <input type="text" placeholder="item..." onkeyup="getInput(this)" id="search"/>
+        </label>
+      </form>
+      <div class="item-container">
+        <div class="item" data-type="sweets">
+          <div class="img-container">
+            <img src="/img/sweets-3.jpeg" alt="Sweet"/>
+          </div>
+          <div class="card">Sweet item <span>$10</span></div>
+        </div>
+
+        <div class="item" data-type="cakes">
+          <div class="img-container">
+            <img src="/img/cake-3.jpeg" alt="Cake" />
+          </div>
+          <div class="card">Cake item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="doughnuts">
+          <div class="img-container">
+            <img src="/img/doughnut-1.jpeg" alt="Doughnut" />
+          </div>
+          <div class="card">Doughniut tem <span>$10</span></div>
+        </div>
+        <div class="item" data-type="cupcakes">
+          <div class="img-container">
+            <img src="/img/cupcake-1.jpeg" alt="Cupcake" />
+          </div>
+          <div class="card">Cupcake item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="cupcakes">
+          <div class="img-container">
+            <img src="/img/cupcake-2.jpeg" alt="Cupcake" />
+          </div>
+          <div class="card">Cupcake item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="doughnuts">
+          <div class="img-container">
+            <img src="/img/doughnut-2.jpeg" alt="Doughnut" />
+          </div>
+          <div class="card">Doughnut item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="sweets">
+          <div class="img-container">
+            <img src="/img/sweets-2.jpeg" alt="Sweet" />
+          </div>
+          <div class="card">Sweet item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="cakes">
+          <div class="img-container">
+            <img src="/img/cake-2.jpeg" alt="Cake" />
+          </div>
+          <div class="card">Cake item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="doughnuts">
+          <div class="img-container">
+            <img src="/img/doughnut-3.jpeg" alt="Doughnut" />
+          </div>
+          <div class="card">Doughnut item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="cupcakes">
+          <div class="img-container">
+            <img src="/img/cupcake-3.jpeg" alt="Cupcake" />
+          </div>
+          <div class="card">Cupcake item <span>$10</span></div>
+        </div>
+        <div class="item" data-type="sweets">
+          <div class="img-container">
+            <img src="/img/sweets-1.jpeg" alt="Sweet" />
+          </div>
+          <div class="card">Sweet item <span>$10</span></div>
+        </div>
+
+        <div class="item" data-type="cakes">
+          <div class="img-container">
+            <img src="/img/cake-1.jpeg" alt="Cake" />
+          </div>
+          <div class="card">Cake item <span>$10</span></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
