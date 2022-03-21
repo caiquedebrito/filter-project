@@ -12,16 +12,16 @@ Filter-project consists of an item filter. It was created to practice JavaScript
 <!-- Imagens/Ilustração do projeto -->
 ## 💻Illustration
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/88737351/159271676-69d6d572-75a0-499c-a058-16940b45a89f.png"/>
-  <img src="https://user-images.githubusercontent.com/88737351/159271957-bc506ff8-b7ce-4c14-8d0e-81ae08719841.png"/>
-  <img src="https://user-images.githubusercontent.com/88737351/159272369-f642c89d-4d15-4665-9305-4221e0bda2cb.png"/>
+  <img src="https://user-images.githubusercontent.com/88737351/159271676-69d6d572-75a0-499c-a058-16940b45a89f.png" align="center"/>
+  <img src="https://user-images.githubusercontent.com/88737351/159271957-bc506ff8-b7ce-4c14-8d0e-81ae08719841.png" align="center"/>
+  <img src="https://user-images.githubusercontent.com/88737351/159272369-f642c89d-4d15-4665-9305-4221e0bda2cb.png" align="center"/>
 </div>    
 
-###📱Mobile     
+## 📱Mobile     
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/88737351/159272563-86a9e40e-614a-4dd9-9d8b-0c4e42c9e296.png"/>
-  <img src="https://user-images.githubusercontent.com/88737351/159272710-ca7b699f-d0d0-4f42-8797-a70f2c10a006.png"/>
-  <img src="https://user-images.githubusercontent.com/88737351/159272817-ae310b78-d610-4165-8ce8-7b14da68e97b.png"/>
+  <img src="https://user-images.githubusercontent.com/88737351/159272563-86a9e40e-614a-4dd9-9d8b-0c4e42c9e296.png" align="center"/>
+  <img src="https://user-images.githubusercontent.com/88737351/159272710-ca7b699f-d0d0-4f42-8797-a70f2c10a006.png" align="center"/>
+  <img src="https://user-images.githubusercontent.com/88737351/159272817-ae310b78-d610-4165-8ce8-7b14da68e97b.png" align="center"/>
 </div>                                                                                            
 
 ## 👁️View
